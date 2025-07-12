@@ -17,6 +17,13 @@
 //#define SD_IO_WRITE_WAIT_BLOCKER
 #define SD_IO_WRITE_TIMEOUT_WAIT 250
 
+// #define SPT_SD_PRINTF
+#ifdef SPT_SD_PRINTF
+#define SD_PRINTF printf
+#else
+#define SD_PRINTF(...) ((void)0)
+#endif
+
 //#define SD_IO_DBG_COUNT
 /*****************************************************************************/
 
