@@ -9,7 +9,6 @@
 /*****************************************************************************/
 /* Integer type definitions                                                  */
 /*****************************************************************************/
-#ifndef FF_DEFINED
 #ifndef _INTEGER_H_
 #define _INTEGER_H_
 
@@ -77,4 +76,3 @@ typedef enum { LOW = 0, HIGH } THROTTLE;
 / The copyright owner or contributors be NOT LIABLE for any damages caused
 / by use of this software.
 /----------------------------------------------------------------------------*/
-#endif
